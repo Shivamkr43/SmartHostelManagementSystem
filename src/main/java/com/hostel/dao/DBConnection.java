@@ -14,7 +14,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/smart_hostel",
                 "root",
-                "root123"
+                "YOUR_MY_SQL_PASSWORD"
             );
 
         } catch (Exception e) {
